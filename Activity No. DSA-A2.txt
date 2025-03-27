@@ -1,0 +1,60 @@
+A. Discuss the following in not less than 5 Sentences EACH.
+
+//What are the Control Flow Structures in JavaScript (Conditional)?
+
+-In JavaScript, there are three main types of control flow structures used for conditional decisions. 
+These are the if the statement, else statement, and else if the statement. 
+If a statement is used to evaluate a condition and take the corresponding actions if it is true. 
+The Else statement is used to provide alternative action if the condition in the if the statement is not true.
+Else If Statement is used to add other conditions that can be evaluated if the first condition in the IF statement is not true. 
+Through these control flow structures, we can control the performance of our JavaScript programs based on the conditions we set.
+
+//What are the Control Flow Structures in JavaScript (Loop)?
+
+-In JavaScript, there are three main control flow structures using the loop: for loop, while loop, and do-while loop. 
+The for loop is used to iteratively loop with a particular code block based on a condition or expression.
+The while loop continues looping while the condition is true. 
+Whereas the Do-While Loop continues loop even though the condition is not yet true at the first run.
+These loops are essential to developing repetitive tasks in a program and provide flexibility in code flow control.
+
+//For each Structure: present the Syntax and Sample implementations.
+
+-Syntax is the rule or policy of developing commands or instructions in the program. For example, using the if-ELSE statement, the syntax is if (condition) {Statement} Else {Statement}. 
+With the proper implementation of the syntax, the development of programs will be easy and properly. 
+For example, using for loop, the syntax may be used for (initialization; condition; increment/decrement) {statement} to perform repetitive tasks in the program. Understanding syntax and proper implementation is important to prevent syntax errors and runtime errors in the program. 
+With proper syntax and implementation, the debugging and maintenance of the program will be easier.
+
+B. Discuss what is an Infinite Loop
+
+//What is an infinite Loop?
+
+-A eternal loop is a type of programming loop that continues to implement a process indefinite an eternal loop is the following python code:
+
+`` `Python
+while true:
+Print ("Hello, World!")
+
+In this code, the loop does not end because the condition 'true' is always true. So the program will continue to print "Hello, World!" indefinitely. 
+Eternal loops can cause issues with programs such as wasting memory and slowing down program performance. 
+It is therefore important to carefully avoid having an eternal loop on programs.
+
+//How is an infinite Loop triggered and how to avoid the accidental implementation of an infinite loop?
+
+-Infinite loop is a type of programming error in which a portion of the code continues to exert indefinitely. 
+This can cause program crashes and may bother its users. There are some ways we can avoid the Accidental Implementation of the Infinite Loop. 
+We should make sure our loop conditions are correct. 
+We need to make sure our loop has the right termination condition so that it does not continue forever. 
+If our termination condition is "while X <10", we should be sure that there are operations within the loop that will increase the value of X to reach the termination condition. 
+We should also check our loops for logic errors. 
+Sometimes, a mistake in writing conditions or in order of operations can cause an infinite loop. 
+So it is important that we review our codes before they are executed. And we must set a loop limit. If we know that there is a possibility of an Infinite loop in our code, we can set a limit on the number of loop iterations. 
+In this way, even if there is an error in the code logic, it will not continue forever.
+
+
+https://www.knowledgeboat.com/question/what-is-conditional-flow-of-control-explain-with-an-example--12418608383392104
+https://medium.com/@sadanandgadwal/understanding-control-structures-in-javascript-a-comprehensive-guide-mern-stack-series-ed947b45461d
+https://medium.com/@zachlandis91/control-flow-and-conditional-statements-in-javascript-daf152280ca2
+https://www.scholarhat.com/tutorial/c/loops-in-c
+https://docs.workato.com/recipes/infinite-loops.html
+https://www.studysmarter.co.uk/explanations/computer-science/computer-programming/programming-control-structures/
+https://codeinstitute.net/global/blog/control-flow-in-javascript/
